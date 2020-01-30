@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #fff;
+    color: #555;
+}
+p{
+    padding:  0 0 5px 0 ;
+    line-height: 1em;
+}
+input[type="text"], input[type="password"], input[type="search"]{
+    color: #5d5d5d;
+    width: 160px;
+    padding: 6px;
+}
+h1, h2 {
+    font: normal 170% 'century gothic', arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: white;
+}
+h2{
+    font-size: 140%;
+}
+input, textarea {
+    outline: none;
+    border: none;
+    border: solid 1px white;
+}
+.header{
+    background: black;
+    height: 177px;
+    font-size: 0.8em;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+.main, .logo, .menubar, .site_content, .footer{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 880px;
+    padding-bottom: 40px;
+}
+.logo h1, .logo h2{
+    front: normal 300% 'century gathic', arial , sans-seif;
+    margin: 0 0 0 9px;
+}
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover{
+    padding-top: 22px;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+.logo_text h2 {
+    color: rosybrown;
+}
+.menubar{
+    width: 900px;
+    height: 46px;
+}
+ul.menu{
+    float: right;
+}
+ul.menu li {
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 1px 2px 0 0;
+}
+ul.menu li a {
+    front: normal 100% 'treducjet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    text-decoration: none;
+    color:#fff;
+}
+ul.menu li.selected a {
+    color: rosybrown;
+}
+ul.menu li a:hover {
+    color: #e4ec04;
+}
+.site_content{
+    width: 880px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    background-color: white;
+}
+.sidebar_container{
+    float: right;
+    width: 224px;
+}
+hr{
+    border: inset 1px rosybrown;
+}
+.sidebar {
+    float: right;
+    width: 224px;
+    padding: 5%;
+    margin:  0 0 16px 0;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: rosybrown;
+}
+.btn {
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.search_field{
+    border-radius: 5px;
+}
+.password_field, .login_field{
+    border-radius: 5px;
+    margin:  0 0 4px 0;
+}
+.help_pass_login{
+    text-decoration: none;
+    font-size: 0.95em;
+    margin: 3% 0 0 2%;
+}
+.content{
+    text-align: left;
+    width: 620px;
+    padding: 0 0 0 5px;
+    float: left;
+}
+.content a {
+    text-decoration: none;
+}
+.content h1{
+    color: black;
+}
+.films_block{
+    margin-bottom: 5px;
+}
+.films_block img {
+    border-radius: 5px;
+    border: solid 4px rosybrown;
+    width: 22.2%;
+
+}
+.inf{
+    margin-top: 2%;
+    margin-bottom: 1.2em;
+}
+.inf .label{
+    font-size: 1.2em;
+}
+.inf .value{
+    font-size: 1em;
+    color: #49945a;
+    margin-right: 3%;
+}
+.description_films{
+    margin-bottom: 25%;
+    margin-top: 1%;
+ }
+ .description_films img{
+     float: left;
+     margin-right: 2%;
+     border-radius: 4px;
+     border: solid 4px rosybrown;
+ }
+ .reviews{
+     margin-bottom: 4%;
+     font-size: 0.9em;
+ }
+ .reviews h2{
+     color: black;
+ }
+ .reviews .reviews_name{
+     background-color: black;
+     color: white;
+     padding: 1px;
+     border-radius: 4px;
+     border-top-left-radius: 8px;
+ }
+.reviews .reviews_text{
+     padding-top: 2%;
+     padding-bottom: 2%;
+     padding-left: 2%;
+ }
+.pop{
+    margin-bottom: 4%;
+}
+.pop input[type="text"], textarea{
+    border: solid 1px #c3c3c3;
+    margin-bottom: 2%;
+}
+.pop input[type="text"]{
+    width: 98%;
+}
+.pop textarea{
+    width: 620px;
+    height: 199px;
+}
+.pop input[type="submit"]{
+    background-color: rosybrown;
+    padding: 1%;
+    color: white;
+    border-radius: 4px;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    padding: 35px 0 6px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+    max-height: 100px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: darkgray;
+    text-decoration: none;
+}
+.footer p{
+    padding: 0 0 6px 0;
+}
+.post_content .posts{
+    font-size: 0.8em;
+}
+.posts a{
+    text-decoration: none;
+    color: black;
+}
