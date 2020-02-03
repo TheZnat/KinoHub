@@ -1,1 +1,1 @@
-Kinohub link:https://theznat.github.io/KinoHub/
+Kinohub link: https://theznat.github.io/KinoHub/
